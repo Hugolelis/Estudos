@@ -41,6 +41,7 @@ User-Agent: curl/8.
 503 - Service Unavailable
 504 - Gateway Timeout
 
+
 DNS
   ↓ Resolve o domínio para um endereço IP
 
@@ -58,3 +59,5 @@ Servidor
 
 HTTP Response
   ↓ Servidor retorna status, headers e body
+
+  https://youtu.be/1zVZ9cWFnCc?si=fPOQiZ5bINiITq78
