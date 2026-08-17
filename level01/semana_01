@@ -1,0 +1,60 @@
+Exercicios semana 1
+
+Parte 1: métodos HTTP
+Monte uma tabela com:
+
+Método;
+Finalidade;
+Seguro ou não;
+Idempotente ou não;
+Se normalmente possui body.
+-------------------------------------------------------------------
+method: /POST  route: /auth/login versionHHTP: HTTP/2 / TLS 200: ok
+
+não seguro, não idempotente, possui body
+
+Host: api.example.com
+Content-Type: application/json
+Accept: application/json
+User-Agent: curl/8.
+
+{
+  "email": "new@example.com"
+  "password": "senha-secreta"
+}
+
+
+200 - OK
+201 - Created
+204 - No content 
+301 - Moved Permanently
+304 - Not modified
+400 - Bad request
+401 - Unauthorized
+403 - Forbidden
+404 - Not Found
+409 - Conflict
+422 - Unprocessable Entity
+429 - Too Many Requests
+500 - Internal Server Error
+502 - Bad Gateway
+503 - Service Unavailable
+504 - Gateway Timeout
+
+DNS
+  ↓ Resolve o domínio para um endereço IP
+
+TCP
+  ↓ Cria uma conexão confiável entre cliente e servidor
+
+TLS Handshake
+  ↓ Negocia criptografia e verifica o certificado do servidor
+
+HTTP Request
+  ↓ Cliente envia a requisição HTTP
+
+Servidor
+  ↓ Processa a requisição
+
+HTTP Response
+  ↓ Servidor retorna status, headers e body
