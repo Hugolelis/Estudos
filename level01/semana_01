@@ -1,14 +1,5 @@
 Exercicios semana 1
 
-Parte 1: métodos HTTP
-Monte uma tabela com:
-
-Método;
-Finalidade;
-Seguro ou não;
-Idempotente ou não;
-Se normalmente possui body.
--------------------------------------------------------------------
 method: /POST  route: /auth/login versionHHTP: HTTP/2 / TLS 200: ok
 
 não seguro, não idempotente, possui body
